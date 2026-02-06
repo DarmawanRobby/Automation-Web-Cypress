@@ -1,9 +1,9 @@
-# Automation-RayaWeb-Cypress - Test Automation Documentation
+# Automation-Web-Cypress - Test Automation Documentation
 
 ## 📋 Project Overview
-Automation-RayaWeb-Cypress adalah framework automation testing untuk **Website Bank Raya** menggunakan **Cypress** (v14.1.0). Project ini mengotomatiskan pengujian berbagai fitur dan halaman website Bank Raya.
+Automation-Web-Cypress adalah framework automation testing untuk **Website ** menggunakan **Cypress** (v14.1.0). Project ini mengotomatiskan pengujian berbagai fitur dan halaman website .
 
-**Repository:** `git@github.com:Bank-Raya/Automation-RayaWeb.git`  
+**Repository:** `https://github.com/DarmawanRobby/Automation-Web-Cypress.git`  
 **Version:** 1.0.0
 
 ---
@@ -11,7 +11,7 @@ Automation-RayaWeb-Cypress adalah framework automation testing untuk **Website B
 ## 🏗️ Project Structure
 
 ```
-Automation-RayaWeb-Cypress-Raya-Web/
+Automation-Web-Cypress--Web/
 ├── cypress/
 │   ├── e2e/                          # Test files (End-to-End scenarios)
 │   │   ├── landingpage.cy.js         # Landing page tests
@@ -54,19 +54,19 @@ Automation-RayaWeb-Cypress-Raya-Web/
 
 | Test File | Feature | Functionality | Page URL Path |
 |-----------|---------|--------------|---------------|
-| **landingpage.cy.js** | Landing Page | Akses dan validasi landing page utama Bank Raya | `/` |
-| **produk.cy.js** | Products | Test berbagai produk Bank Raya (Saku Raya, Saku Bujet, Saku Pintar, dll) | `/products` |
+| **landingpage.cy.js** | Landing Page | Akses dan validasi landing page utama  | `/` |
+| **produk.cy.js** | Products | Test berbagai produk  (Saku , Saku Bujet, Saku Pintar, dll) | `/products` |
 | **promo.cy.js** | Promotions | Test halaman promosi/penawaran spesial | `/promo` |
-| **perusahaan-tentangkami.cy.js** | Corporate - About Us | Informasi tentang perusahaan Bank Raya | `/corporate/about` |
+| **perusahaan-tentangkami.cy.js** | Corporate - About Us | Informasi tentang perusahaan  | `/corporate/about` |
 | **perusahaan-strukturperusahaan.cy.js** | Corporate - Structure | Struktur organisasi perusahaan | `/corporate/structure` |
 | **perusahaan-hubunganinvestor.cy.js** | Corporate - Investor Relations | Info saham, laporan keuangan, presentasi, berita investor | `/corporate/investor-relations` |
 | **perusahaan-tatakelola.cy.js** | Corporate - Good Governance | Tata kelola perusahaan dan kebijakan | `/corporate/governance` |
 | **perusahaan-karir.cy.js** | Corporate - Career | Lowongan kerja dan rekrutmen | `/corporate/career` |
 | **perusahaan-asetmedia.cy.js** | Corporate - Media Assets | Aset media perusahaan (logo, foto, dll) | `/corporate/media` |
 | **perusahaan-whistleblowing.cy.js** | Corporate - Whistleblowing | Sistem pelaporan pelanggaran | `/corporate/whistleblowing` |
-| **info-berita.cy.js** | Info - News | Berita dan artikel terkini Bank Raya | `/info/news` |
+| **info-berita.cy.js** | Info - News | Berita dan artikel terkini  | `/info/news` |
 | **info-insights.cy.js** | Info - Insights | Insight industri dan analisis pasar | `/info/insights` |
-| **info-pengumuman.cy.js** | Info - Announcements | Pengumuman resmi Bank Raya | `/info/announcements` |
+| **info-pengumuman.cy.js** | Info - Announcements | Pengumuman resmi  | `/info/announcements` |
 | **template.cy.js** | Template | Demo template test cases | Demo |
 
 ---
@@ -77,7 +77,7 @@ Automation-RayaWeb-Cypress-Raya-Web/
 
 | TC ID | Test Name | Scenario | Expected Result | Status |
 |-------|-----------|----------|-----------------|--------|
-| TC001 | Landing Page Access | Akses halaman utama Bank Raya | Halaman landing page terbuka dengan benar | ✅ Positive |
+| TC001 | Landing Page Access | Akses halaman utama  | Halaman landing page terbuka dengan benar | ✅ Positive |
 
 ---
 
@@ -85,7 +85,7 @@ Automation-RayaWeb-Cypress-Raya-Web/
 
 | TC ID | Product Name | Category | Scenario | Expected Result | Status |
 |-------|-------------|----------|----------|-----------------|--------|
-| TC001 | Saku Raya | Simpanan | Klik produk Saku Raya dan buka detail page | Detail halaman produk menampilkan informasi lengkap | ✅ Positive |
+| TC001 | Saku  | Simpanan | Klik produk Saku  dan buka detail page | Detail halaman produk menampilkan informasi lengkap | ✅ Positive |
 | TC002 | Saku Bujet | Tabungan | Klik produk Saku Bujet dan buka detail page | Detail halaman produk menampilkan informasi lengkap | ✅ Positive |
 | TC003 | Saku Pintar | Tabungan | Klik produk Saku Pintar dan buka detail page | Detail halaman produk menampilkan informasi lengkap | ✅ Positive |
 | TC004 | Saku Jaga | Tabungan | Klik produk Saku Jaga dan buka detail page | Detail halaman produk menampilkan informasi lengkap | ✅ Positive |
@@ -121,10 +121,10 @@ Automation-RayaWeb-Cypress-Raya-Web/
 
 | TC ID | Berita Title | Category | Date | Scenario | Expected Result | Status |
 |-------|-------------|----------|------|----------|-----------------|--------|
-| TC001 | Ribuan Pelari Memeriahkan Raya Run Surabaya | Kerjasama | 2025-10-27 | Buka detail berita dan validasi | Halaman detail berita tampil dengan konten lengkap | ✅ Positive |
-| TC002 | Kinerja Bank Raya Tumbuh Positif di KW III | Kegiatan Perusahaan | - | Buka detail berita dan validasi | Halaman detail berita tampil dengan konten lengkap | ✅ Positive |
-| TC003 | Bank Raya Perkuat Komitmen ESG | CSR | 2025-10-03 | Buka detail berita dan validasi | Halaman detail berita tampil dengan konten lengkap | ✅ Positive |
-| TC004 | Bank Raya Hadirkan Fitur "Uang Saku" | Produk | - | Buka detail berita dan validasi | Halaman detail berita tampil dengan konten lengkap | ✅ Positive |
+| TC001 | Ribuan Pelari Memeriahkan  Run Surabaya | Kerjasama | 2025-10-27 | Buka detail berita dan validasi | Halaman detail berita tampil dengan konten lengkap | ✅ Positive |
+| TC002 | Kinerja  Tumbuh Positif di KW III | Kegiatan Perusahaan | - | Buka detail berita dan validasi | Halaman detail berita tampil dengan konten lengkap | ✅ Positive |
+| TC003 |  Perkuat Komitmen ESG | CSR | 2025-10-03 | Buka detail berita dan validasi | Halaman detail berita tampil dengan konten lengkap | ✅ Positive |
+| TC004 |  Hadirkan Fitur "Uang Saku" | Produk | - | Buka detail berita dan validasi | Halaman detail berita tampil dengan konten lengkap | ✅ Positive |
 
 ---
 
@@ -151,8 +151,8 @@ Automation-RayaWeb-Cypress-Raya-Web/
 
 ```bash
 # 1. Clone repository
-git clone git@github.com:Bank-Raya/Automation-RayaWeb.git
-cd Automation-RayaWeb-Cypress-Raya-Web
+git clone git@github.com-/Automation-Web.git
+cd Automation-Web-Cypress--Web
 
 # 2. Install dependencies
 npm install
@@ -345,8 +345,7 @@ After running tests, reports are generated:
 
 ---
 
-## 👥 Contributors
-Bank Raya Automation Team
+## 👥 Contributors  Automation Team
 
 ---
 
@@ -386,4 +385,4 @@ ISC License (see LICENSE file if present)
 ---
 
 **Last Updated:** February 6, 2025  
-**Maintained By:** Bank Raya Automation Team
+**Maintained By:**  Automation Team
