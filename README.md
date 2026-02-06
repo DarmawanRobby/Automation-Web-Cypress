@@ -1,10 +1,120 @@
 # Automation-Web-Cypress - Test Automation Documentation
 
-## 📋 Project Overview
-Automation-Web-Cypress adalah framework automation testing untuk **Website ** menggunakan **Cypress** (v14.1.0). Project ini mengotomatiskan pengujian berbagai fitur dan halaman website .
+## 📋 Project Overview / Gambaran Proyek
 
-**Repository:** `https://github.com/DarmawanRobby/Automation-Web-Cypress.git`  
-**Version:** 1.0.0
+Automation-Web-Cypress adalah framework automation testing untuk **Web App** menggunakan **Cypress** (v14.1.0). Project ini mengotomatiskan pengujian berbagai fitur dan halaman website untuk memastikan kualitas dan keandalan sistem.
+
+---
+
+## 🎯 Purpose / Tujuan Repository
+
+### 🇮🇩 Bahasa Indonesia
+Repository ini dibuat dengan tujuan utama untuk:
+- **Mengotomatiskan pengujian** Web App secara end-to-end untuk memastikan semua fitur berfungsi dengan baik
+- **Meningkatkan kualitas software** dengan mendeteksi bug lebih awal dalam siklus pengembangan
+- **Mempercepat proses testing** yang sebelumnya dilakukan secara manual menjadi otomatis
+- **Menjaga konsistensi** pengujian setiap kali ada perubahan pada codebase
+- **Mendokumentasikan test cases** secara terstruktur dan mudah dipahami
+- **Mendukung CI/CD pipeline** untuk automated testing pada setiap deployment
+
+### 🇺🇸 English
+This repository is created with the main purpose to:
+- **Automate end-to-end testing** of Web App to ensure all features work properly
+- **Improve software quality** by detecting bugs early in the development cycle
+- **Accelerate testing process** that was previously done manually to become automated
+- **Maintain testing consistency** every time there are changes in the codebase
+- **Document test cases** in a structured and easy-to-understand manner
+- **Support CI/CD pipeline** for automated testing on every deployment
+
+---
+
+## 🧪 Types of Testing / Jenis Testing yang Dilakukan
+
+### 🇮🇩 Bahasa Indonesia
+1. **End-to-End (E2E) Testing**
+   - Menguji alur pengguna lengkap dari awal hingga akhir pada website
+   - Memvalidasi integrasi antar komponen dan halaman
+
+2. **Functional Testing**
+   - Menguji setiap fungsi dan fitur website sesuai dengan spesifikasi
+   - Memvalidasi input, output, dan perilaku sistem
+
+3. **UI/UX Testing**
+   - Menguji tampilan antarmuka pengguna dan pengalaman pengguna
+   - Memvalidasi elemen visual, navigasi, dan responsivitas
+
+4. **Regression Testing**
+   - Memastikan perubahan kode tidak mempengaruhi fungsionalitas yang sudah ada
+   - Dijalankan setiap kali ada update atau fix pada codebase
+
+5. **Data-Driven Testing**
+   - Pengujian berbasis data menggunakan file Excel
+   - Memvalidasi berbagai skenario dengan data yang berbeda-beda
+
+6. **Smoke Testing**
+   - Pengujian awal untuk memvalidasi build stabil sebelum pengujian lebih lanjut
+   - Memastikan fungsi-fungsi utama berjalan dengan baik
+
+### 🇺🇸 English
+1. **End-to-End (E2E) Testing**
+   - Testing complete user flows from start to end on the website
+   - Validating integration between components and pages
+
+2. **Functional Testing**
+   - Testing each function and feature of the website according to specifications
+   - Validating input, output, and system behavior
+
+3. **UI/UX Testing**
+   - Testing user interface and user experience
+   - Validating visual elements, navigation, and responsiveness
+
+4. **Regression Testing**
+   - Ensuring code changes don't affect existing functionality
+   - Run every time there's an update or fix in the codebase
+
+5. **Data-Driven Testing**
+   - Data-based testing using Excel files
+   - Validating various scenarios with different data sets
+
+6. **Smoke Testing**
+   - Initial testing to validate stable builds before further testing
+   - Ensuring main functions work properly
+
+---
+
+## 🛠️ Tools & Technologies
+
+### 🇮🇩 Bahasa Indonesia
+
+| Kategori | Teknologi | Versi | Deskripsi |
+|-----------|-----------|-------|-----------|
+| **Test Framework** | Cypress | v14.1.0 | Framework testing end-to-end utama |
+| **Runtime Environment** | Node.js | v16+ | Environment untuk menjalankan Cypress |
+| **Package Manager** | npm | v8+ | Manajemen dependency dan package |
+| **Reporting** | cypress-mochawesome-reporter | v3.8.2 | Plugin reporter untuk format HTML |
+| **Reporting** | mochawesome | v7.1.3 | Library untuk generate laporan |
+| **Data Processing** | xlsx | v0.18.5 | Library untuk membaca file Excel |
+| **Browser** | Electron | - | Browser default Cypress untuk testing |
+| **Browser** | Chrome/Chromium | - | Browser alternatif untuk testing |
+| **OS Support** | macOS | - | Sistem operasi yang diuji |
+| **OS Support** | Windows | - | Sistem operasi yang diuji |
+| **OS Support** | Linux | - | Sistem operasi yang diuji |
+
+### 🇺🇸 English
+
+| Category | Technology | Version | Description |
+|----------|------------|---------|-------------|
+| **Test Framework** | Cypress | v14.1.0 | Main end-to-end testing framework |
+| **Runtime Environment** | Node.js | v16+ | Environment to run Cypress |
+| **Package Manager** | npm | v8+ | Dependency and package management |
+| **Reporting** | cypress-mochawesome-reporter | v3.8.2 | Reporter plugin for HTML format |
+| **Reporting** | mochawesome | v7.1.3 | Library for generating reports |
+| **Data Processing** | xlsx | v0.18.5 | Library for reading Excel files |
+| **Browser** | Electron | - | Default Cypress browser for testing |
+| **Browser** | Chrome/Chromium | - | Alternative browser for testing |
+| **OS Support** | macOS | - | Tested operating system |
+| **OS Support** | Windows | - | Tested operating system |
+| **OS Support** | Linux | - | Tested operating system |
 
 ---
 
