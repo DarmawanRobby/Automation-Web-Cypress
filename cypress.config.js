@@ -38,10 +38,6 @@ module.exports = defineConfig({
       if (env) config.baseUrl = config.env[`${env.toUpperCase()}_URL`];
       return config;
     },
-    // env: {
-    //   STAGING_URL:
-    //     "https://dashboard-rm.pinang-maksima.staging.rayain.net/login",
-    // },
 
     // experimentalStudio: true,
     experimentalMemoryManagement: true,
